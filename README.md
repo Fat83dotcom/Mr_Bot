@@ -23,16 +23,26 @@ CREATE TABLE register_sites (
 - Basta conectar a um banco de dados que contenha esta tabela, e o bot irá recuperar os metadados. [Aqui](https://github.com/Fat83dotcom/Mr_Bot/blob/master/automation_db.py) eu busco os dados do banco com variáveis de ambiente, mas se você quiser, é só fornecer os dados do banco diretamente.
 Aqui vai um exemplo que uso no meu caso e uma explicação de como o rastreamento funciona:
 
-1 - 'G1',
-2 - 'https://g1.globo.com/busca/?q=',
-3 - 'div.widget--info__text-container a',
-4 - 'div.title h1.content-head__title',
-5 - 'div.content-text p.content-text__container',
-6 - 'tecnologia',
-7 - 2,
-8 - 'https:',
-9 - False,
-10 - r"u=([^&]+)"
+- 1 - 'G1'
+
+- 2 - 'https://g1.globo.com/busca/?q='
+
+- 3 - 'div.widget--info__text-container a'
+
+- 4 - 'div.title h1.content-head__title'
+
+- 5 - 'div.content-text p.content-text__container'
+
+- 6 - 'tecnologia'
+
+- 7 - 2
+
+- 8 - 'https:'
+
+- 9 - False
+
+- 10 - r"u=([^&]+)"
+
 A sequência corresponde à tabela:
 
 - 1 É o nome do site ou portal.
