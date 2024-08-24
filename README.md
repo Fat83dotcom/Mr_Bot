@@ -1,5 +1,5 @@
 # Mr_Bot
-# # Automação que rastreia sites de notícias, resume os textos com IA e faz a postagem em um site.
+## Automação que rastreia sites de notícias, resume os textos com IA e faz a postagem em um site.
 
 - Esta automação cria uma news letter para meu [Portfólio](https://www.brainstormtech.com.br/) usando Web Scraping, para rastrear conteúdo na internet e IA para resumir os textos da news letter.
 - [Aqui](https://github.com/Fat83dotcom/Mr_Bot/blob/master/article_crawler.py) eu apresento o algoritmo isolado, pois o mesmo é integrado com o aplicativo do site e o banco de dados da aplicação, entretanto o algoritmo pode ser aproveitado e testado e aqui vou sugerir como fazer isso.
