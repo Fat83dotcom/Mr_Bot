@@ -2,7 +2,7 @@
 # # Automação que rastreia sites de notícias, resume os textos com IA e faz a postagem em um site.
 
 - Esta automação cria uma news letter para meu [Portfólio](https://www.brainstormtech.com.br/) usando Web Scraping, para rastrear conteúdo na internet e IA para resumir os textos da news letter.
-- Aqui eu apresento o algoritmo isolado, pois o mesmo é integrado com o aplicativo do site e o banco de dados da aplicação, entretanto o algoritmo pode ser aproveitado e testado e aqui vou sugerir como fazer isso.
+- [Aqui](https://github.com/Fat83dotcom/Mr_Bot/blob/master/article_crawler.py) eu apresento o algoritmo isolado, pois o mesmo é integrado com o aplicativo do site e o banco de dados da aplicação, entretanto o algoritmo pode ser aproveitado e testado e aqui vou sugerir como fazer isso.
 - Eu criei uma tabela em um banco de dados SQL para armazenar os metadados que o bot usa para rastrear.
 
 ```sql
@@ -21,7 +21,7 @@ CREATE TABLE register_sites (
 );
 ```
 
-- Basta passa conectar um banco de dados que contenha esta tabela que o bot ira recuperar os metadados.
+- Basta conectar um banco de dados que contenha esta tabela que o bot ira recuperar os metadados.[Aqui](https://github.com/Fat83dotcom/Mr_Bot/blob/master/automation_db.py) eu busquei os dados do banco com variaveis de ambiente, mas se você quiser é só forncer os dados do banco diretamente.
 -Aqui vai um exemplo que uso no meu caso e uma explicação de como o rastreio funciona.
 
 - 1 - 'G1',
